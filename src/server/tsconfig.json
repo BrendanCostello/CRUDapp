@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "target": "es5",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["ES2017"],
+        "types": ["node", "express"],
+        "typeRoots": ["/Users/brendancostello/Desktop/Brendan/CSC/CSC 226/csc-226/node_modules/@types"]
+    },
+    "include": ["."]
+}
